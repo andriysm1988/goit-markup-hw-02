@@ -88,11 +88,19 @@ a {
     
 }
 
+.banner-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border: 0px;
+}
+
 /* Section */
 
 .section-title {
     color: var(--title-text-color) ;
 }
+
 
 /* Features */
 
