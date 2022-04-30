@@ -47,6 +47,10 @@ a {
 .logo {
     font-family: "Raleway", sans-serif;
     color: var(--accent-color) ;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 
@@ -62,7 +66,11 @@ a {
 /* Site-nav */
 
 .site-nav .link {
-    color: var(--title-text-color) ;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
@@ -71,6 +79,13 @@ a {
 }
 
 /* Contacts */
+
+.contact-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height:  1.14;
+    letter-spacing: 0.02em;
+}
 
 .contact-list .link {
     color: var(--primary-text-color);
@@ -91,6 +106,12 @@ a {
 
 .banner-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+   
     
 }
 
@@ -98,13 +119,16 @@ a {
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
-    border: 0px;
+    
 }
 
 /* Section */
 
 .section-title {
     color: var(--title-text-color) ;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 
@@ -112,6 +136,16 @@ a {
 
 .feature-list .title {
     color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    
+}
+
+.feature-list .feature-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* Team */
@@ -122,18 +156,27 @@ a {
 
 .team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-list .position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 /* Buttons */
 
-.button-list {
-    color: var(--title-text-color);
-    
+.button {
+    font-family: inherit;
+    color: var(--title-text-color)
 }
 
 .button-list .button {
     background-color: var(--background-color);
-    border: 0px;
     cursor: pointer;
 }
 
@@ -158,6 +201,12 @@ a {
 
 .address-list .contact-info {
     color: var(--transparent-white);
+}
+
+.street-name, .contact-info {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 
