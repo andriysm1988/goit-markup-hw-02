@@ -42,12 +42,16 @@ a {
 /* Logo */
 
 .logo {
-    color: var(--logo-black-color) ;
+    color: var(--accent-color) ;
 }
 
 
-.web {
-    color: var(--accent-color) ; 
+.studio {
+    color: var(--logo-black-color) ; 
+}
+
+.studio-bottom {
+    color: var(--white-color);
 }
 
 
@@ -95,4 +99,5 @@ a {
 .address-list .contact-info {
     color: var(--transparent-white);
 }
+
 
