@@ -229,6 +229,10 @@ a {
     color: var(--transparent-white);
 }
 
+.address-list .contact-info:hover, .address-list .contact-info:focus {
+    color: var(--accent-color);
+}
+
 .street-name, .contact-info {
     font-size: 14px;
     line-height: 1.71;
