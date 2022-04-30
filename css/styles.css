@@ -116,9 +116,10 @@ a {
 .button-list .button {
     background-color: var(--secondary-background-color);
     border: 0px;
+    cursor: pointer;
 }
 
-.button-list .button:hover {
+.button-list .button:hover, .button-list .button:focus {
     color: var(--white-color);
     background-color: var(--accent-color) ;
 }
