@@ -164,7 +164,23 @@ a {
 
 .team-list .position {
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+
+/* Projects */
+
+.projects .project-title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.projects .project-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
@@ -172,7 +188,11 @@ a {
 
 .button {
     font-family: inherit;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 
 .button-list .button {
