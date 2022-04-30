@@ -5,6 +5,7 @@
     --logo-black-color: #000000;
     --white-color: #FFFFFF;
     --transparent-white: rgba(255, 255, 255, 0.6);
+    --secondary-background-color: #F5F4FA;
 }
 
 
@@ -103,6 +104,23 @@ a {
 
 .team-list .title {
     color: var(--title-text-color);
+}
+
+/* Buttons */
+
+.button-list {
+    color: var(--title-text-color);
+    
+}
+
+.button-list .button {
+    background-color: var(--secondary-background-color);
+    border: 0px;
+}
+
+.button-list .button:hover {
+    color: var(--white-color);
+    background-color: var(--accent-color) ;
 }
 
 /* Address */
