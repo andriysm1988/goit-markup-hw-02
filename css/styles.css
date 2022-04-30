@@ -5,7 +5,8 @@
     --logo-black-color: #000000;
     --white-color: #FFFFFF;
     --transparent-white: rgba(255, 255, 255, 0.6);
-    --secondary-background-color: #F5F4FA;
+    --background-color: #F5F4FA;
+    --secondary-bg-color: #2F303A;
 }
 
 
@@ -84,7 +85,12 @@ a {
 
 /* Баннер */
 
+.banner {
+    background-color: var(--secondary-bg-color);
+}
+
 .banner-title {
+    color: var(--white-color);
     
 }
 
@@ -110,6 +116,10 @@ a {
 
 /* Team */
 
+.section.team {
+    background-color: var(--background-color);
+}
+
 .team-list .title {
     color: var(--title-text-color);
 }
@@ -122,7 +132,7 @@ a {
 }
 
 .button-list .button {
-    background-color: var(--secondary-background-color);
+    background-color: var(--background-color);
     border: 0px;
     cursor: pointer;
 }
@@ -130,6 +140,14 @@ a {
 .button-list .button:hover, .button-list .button:focus {
     color: var(--white-color);
     background-color: var(--accent-color) ;
+   
+}
+
+/* Футер */
+
+
+.footer {
+    background-color: var(--secondary-bg-color);
 }
 
 /* Address */
