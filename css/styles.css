@@ -66,6 +66,19 @@ a {
 
 }
 
+/* Contacts */
+
+.contact-list .link {
+    color: var(--primary-text-color);
+}
+
+.contact-list .link:hover, .contact-list .link:focus {
+    color: var(--accent-color);
+
+}
+
+
+
 /* Баннер */
 
 .banner-title {
