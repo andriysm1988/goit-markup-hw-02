@@ -10,6 +10,7 @@
 
 
 body {
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: var(--primary-text-color);
 }
@@ -42,6 +43,7 @@ a {
 /* Logo */
 
 .logo {
+    font-family: "Raleway", sans-serif;
     color: var(--accent-color) ;
 }
 
