@@ -17,13 +17,6 @@ body {
     color: var(--primary-text-color);
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 
 /* Основний колір тексту : #757575 */
@@ -38,7 +31,9 @@ a {
 
 /* Чорнрий колір для лого : #000000 */
 
-/* Вторинний колір фону : #F5F4FA */
+/* Колір фону : #F5F4FA */
+
+/* Вторинний колір фону */
 
 
 
@@ -54,7 +49,7 @@ a {
 }
 
 
-.studio {
+.studio-top {
     color: var(--logo-black-color) ; 
 }
 
@@ -192,18 +187,16 @@ a {
 
 /* Buttons */
 
-.button {
+.button-list .button {
+
+    background-color: var(--background-color);
+    cursor: pointer;
     font-family: inherit;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-}
-
-.button-list .button {
-    background-color: var(--background-color);
-    cursor: pointer;
 }
 
 .button-list .button:hover, .button-list .button:focus {
