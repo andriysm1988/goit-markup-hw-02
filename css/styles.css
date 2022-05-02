@@ -51,6 +51,9 @@ ul {
 }
 
 
+
+
+
 /* Logo */
 
 .logo {
@@ -85,6 +88,14 @@ ul {
     color: var(--accent-color);
 
 }
+
+.site-nav .current {
+    color: var(--accent-color)
+}
+
+
+
+
 
 /* Contacts */
 
@@ -195,7 +206,7 @@ ul {
 .projects .project-title {
     color: var(--title-text-color);
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
@@ -226,6 +237,11 @@ ul {
    
 }
 
+.button-list .current {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
 /* Футер */
 
 
@@ -237,7 +253,7 @@ ul {
 
 .address-list .street-name {
     color: var(--primary-bg-color);
-}
+    }
 
 .address-list .contact-info {
     color: var(--transparent-white);
@@ -250,6 +266,7 @@ ul {
 .street-name, .contact-info {
     line-height: 1.71;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 
