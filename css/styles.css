@@ -4,7 +4,7 @@
 
 /* Вторинний колір тексту : #212121 */
 
-/* Білий колір : #FFFFFF */
+/* Головний колір фону : #FFFFFF */
 
 /* Прозорий білий для пошти і тел в футері : rgba(255, 255, 255, 0.6) */
 
@@ -14,7 +14,7 @@
 
 /* Колір фону : #F5F4FA */
 
-/* Вторинний колір фону */
+/* Вторинний колір фону : #2F303A*/
 
 
 
@@ -24,7 +24,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --logo-black-color: #000000;
-    --white-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
     --transparent-white: rgba(255, 255, 255, 0.6);
     --background-color: #F5F4FA;
     --secondary-bg-color: #2F303A;
@@ -34,8 +34,9 @@
 
 body {
     font-family: "Roboto", "Montserrat", "Nunito", sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-size: 14px;
 }
 
 
@@ -56,7 +57,7 @@ body {
 }
 
 .studio-bottom {
-    color: var(--white-color);
+    color: var(--primary-bg-color);
 }
 
 
@@ -65,7 +66,6 @@ body {
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em; 
 }
@@ -79,7 +79,6 @@ body {
 
 .contact-list {
     font-weight: 500;
-    font-size: 14px;
     line-height:  1.14;
     letter-spacing: 0.02em;
 }
@@ -102,7 +101,7 @@ body {
 }
 
 .banner-title {
-    color: var(--white-color);
+    color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -115,7 +114,7 @@ body {
 .banner-button {
 
     font-family: inherit;
-    color: var(--white-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -139,14 +138,12 @@ body {
 
 .feature-list .title {
     color: var(--title-text-color);
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     
 }
 
 .feature-list .feature-text {
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -202,7 +199,7 @@ body {
 }
 
 .button-list .button:hover, .button-list .button:focus {
-    color: var(--white-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-color) ;
    
 }
@@ -217,7 +214,7 @@ body {
 /* Address */
 
 .address-list .street-name {
-    color: var(--white-color);
+    color: var(--primary-bg-color);
 }
 
 .address-list .contact-info {
@@ -229,7 +226,6 @@ body {
 }
 
 .street-name, .contact-info {
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
